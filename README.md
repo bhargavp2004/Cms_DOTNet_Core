@@ -20,7 +20,7 @@ One can directly download the zip file of the project from https://github.com/bh
 1) Extract the zip file
 2) Open Visual Studio 2022 IDE
 3) Click on open project or solution
-4) Open extracted folder and from that select webportal.sln file
+4) Open extracted folder and from that select CollegeMgmtSystem.sln file
 5) Copy database connection string and set it in web.config file
 
  ## Authors
