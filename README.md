@@ -21,7 +21,11 @@ One can directly download the zip file of the project from https://github.com/bh
 2) Open Visual Studio 2022 IDE
 3) Click on open project or solution
 4) Open extracted folder and from that select CollegeMgmtSystem.sln file
-5) Copy database connection string and set it in web.config file
+5) Dependencies to be installed :
+   - Microsoft.EntityFrameworkCore.SqlServer
+   - Microsoft.EntityFrameworkCore.Tools
+   - Microsoft.EntityFrameworkCore.Design
+   - Microsoft.EntityFrameworkCore
 
  ## Authors
 
@@ -30,4 +34,5 @@ One can directly download the zip file of the project from https://github.com/bh
 
 - ## Running web application
 
-1) Open login.aspx file and click on run button
+1) Application is having previledge that admin is the only person who can add teachers and student so until and unless you don't have data in aspnetusers table you won't be able to proceed further. So first remove [Authorize] tag declared above the controllers and add roles then add admin to the system and again put all the tags.
+2) Now click on run button.
