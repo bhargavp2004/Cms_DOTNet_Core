@@ -33,6 +33,7 @@ Add-Migration Init
 ```bash
 Update-Database
 ```
+(Init is name of the migration so you can give any name)
 
 
  ## Authors
