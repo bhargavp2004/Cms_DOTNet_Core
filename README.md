@@ -26,6 +26,14 @@ One can directly download the zip file of the project from https://github.com/bh
    - Microsoft.EntityFrameworkCore.Tools
    - Microsoft.EntityFrameworkCore.Design
    - Microsoft.EntityFrameworkCore
+6) Run following commands :
+```bash
+Add-Migration Init 
+```
+```bash
+Update-Database
+```
+
 
  ## Authors
 
